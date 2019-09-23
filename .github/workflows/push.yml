@@ -17,7 +17,7 @@ jobs:
         run: |
           git checkout "${GITHUB_REF:11}" --
           git remote rm origin
-          git remote add origin "https://$GH_TOKEN@github.com/hipstersmoothie/bmp-ts.git"
+          git remote add origin "https://$GH_TOKEN@github.com/intuit/storybook-addon-sketch.git"
           git fetch origin
           git branch --set-upstream-to origin/master
       - name: Use Node.js 10.x
