@@ -12,6 +12,18 @@ npm i --save storybook-addon-sketch
 
 ## Configuration
 
+There are two ways you can install this addon.
+
+### Preset
+
+Add the following to your `presets.js`.
+
+```js
+module.exports = ['storybook-addon-sketch/preset'];
+```
+
+### Manually
+
 Add the following to your `addons.js`.
 
 ```js

@@ -1,5 +1,5 @@
 {
-  "name": "@cgds/storybook-addon-sketch",
+  "name": "storybook-addon-sketch",
   "version": "0.0.2",
   "description": "Get the sketch files for you stories in storybook",
   "main": "dist/index.js",
@@ -19,12 +19,16 @@
     "name": "Andrew Lisowski",
     "email": "lisowski54@gmail.com"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "build": "npm run build:types && npm run build:js",
     "build:watch": "npm run build:js -- --watch --verbose",
     "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\"",
     "type-check": "tsc --noEmit",
-    "build:types": "tsc --emitDeclarationOnly"
+    "build:types": "tsc --emitDeclarationOnly",
+    "release": "auto shipit"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
@@ -36,6 +40,7 @@
     "@storybook/addons": "^5.2.0",
     "@storybook/components": "^5.2.0",
     "@types/file-saver": "^2.0.0",
+    "@types/node": "^12.7.5",
     "@types/react": "^16.8.14",
     "auto": "^7.6.0",
     "husky": "^2.0.0",
@@ -84,12 +89,7 @@
   "license": "MIT",
   "auto": {
     "plugins": [
-      [
-        "npm",
-        {
-          "setRcToken": false
-        }
-      ],
+      "npm",
       "released"
     ],
     "labels": {
