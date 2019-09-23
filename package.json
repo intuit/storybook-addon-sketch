@@ -1,5 +1,5 @@
 {
-  "name": "@cgds/storybook-addon-sketch",
+  "name": "storybook-addon-sketch",
   "version": "0.0.2",
   "description": "Get the sketch files for you stories in storybook",
   "main": "dist/index.js",
