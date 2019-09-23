@@ -24,7 +24,8 @@
     "build:watch": "npm run build:js -- --watch --verbose",
     "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\"",
     "type-check": "tsc --noEmit",
-    "build:types": "tsc --emitDeclarationOnly"
+    "build:types": "tsc --emitDeclarationOnly",
+    "release": "auto shipit"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
