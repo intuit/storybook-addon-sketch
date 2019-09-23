@@ -89,12 +89,7 @@
   "license": "MIT",
   "auto": {
     "plugins": [
-      [
-        "npm",
-        {
-          "setRcToken": false
-        }
-      ],
+      "npm",
       "released"
     ],
     "labels": {
