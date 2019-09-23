@@ -1,0 +1,109 @@
+{
+  "name": "@cgds/storybook-addon-sketch",
+  "version": "0.0.2",
+  "description": "Get the sketch files for you stories in storybook",
+  "main": "dist/index.js",
+  "source": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.intuit.com/design-systems/storybook-addon-sketch"
+  },
+  "files": [
+    "dist",
+    "entry.js",
+    "register.js",
+    "register-options.js"
+  ],
+  "browserslist": "> 0.25%, not dead",
+  "author": {
+    "name": "Andrew Lisowski",
+    "email": "andrew_lisowski@intuit.com"
+  },
+  "scripts": {
+    "build": "npm run build:types && npm run build:js",
+    "build:watch": "npm run build:js -- --watch --verbose",
+    "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\"",
+    "type-check": "tsc --noEmit",
+    "build:types": "tsc --emitDeclarationOnly"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@storybook/addons": "^5.2.0",
+    "@storybook/components": "^5.2.0",
+    "@types/file-saver": "^2.0.0",
+    "@types/react": "^16.8.14",
+    "auto": "^7.6.0",
+    "husky": "^2.0.0",
+    "jest": "^24.7.1",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.17.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typescript": "^3.4.5"
+  },
+  "peerDependencies": {
+    "@storybook/addons": ">= 5.x",
+    "@storybook/components": ">= 5.x",
+    "react": "*"
+  },
+  "dependencies": {
+    "@types/url-join": "^4.0.0",
+    "file-saver": "^2.0.1",
+    "story2sketch": "^1.5.0",
+    "url-join": "^4.0.0"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "html"
+    ]
+  },
+  "license": "MIT",
+  "auto": {
+    "owner": "design-systems",
+    "repo": "storybook-addon-sketch",
+    "plugins": [
+      [
+        "npm",
+        {
+          "setRcToken": false
+        }
+      ],
+      "released"
+    ],
+    "labels": {
+      "dependency-update": {
+        "name": "dependency-update",
+        "title": "Dependency Updates"
+      }
+    },
+    "skipReleaseLabels": [
+      "dependency-update"
+    ],
+    "githubApi": "https://github.intuit.com/api/v3",
+    "githubGraphqlApi": "https://github.intuit.com/api"
+  }
+}
