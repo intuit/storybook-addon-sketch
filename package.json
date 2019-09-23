@@ -6,7 +6,7 @@
   "source": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.intuit.com/design-systems/storybook-addon-sketch"
+    "url": "https://github.com/intuit/storybook-addon-sketch"
   },
   "files": [
     "dist",
@@ -17,7 +17,7 @@
   "browserslist": "> 0.25%, not dead",
   "author": {
     "name": "Andrew Lisowski",
-    "email": "andrew_lisowski@intuit.com"
+    "email": "lisowski54@gmail.com"
   },
   "scripts": {
     "build": "npm run build:types && npm run build:js",
@@ -83,8 +83,6 @@
   },
   "license": "MIT",
   "auto": {
-    "owner": "design-systems",
-    "repo": "storybook-addon-sketch",
     "plugins": [
       [
         "npm",
@@ -102,8 +100,6 @@
     },
     "skipReleaseLabels": [
       "dependency-update"
-    ],
-    "githubApi": "https://github.intuit.com/api/v3",
-    "githubGraphqlApi": "https://github.intuit.com/api"
+    ]
   }
 }
