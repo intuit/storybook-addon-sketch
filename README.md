@@ -1,6 +1,6 @@
 # storybook-addon-sketch
 
-Download sketch files straight from storybook.
+> Download sketch files straight from storybook.
 
 ## Installation
 
