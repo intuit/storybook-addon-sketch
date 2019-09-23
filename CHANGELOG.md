@@ -1,3 +1,23 @@
+# v0.1.0 (Mon Sep 23 2019)
+
+#### 🚀  Enhancement
+
+- add preset [#1](https://github.com/intuit/storybook-addon-sketch/pull/1) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### ⚠️  Pushed to master
+
+- Revert "delete workflows"  ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- delete workflows  ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- update url  ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- :pray:  ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- de-intuit it  ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.0.2 (Wed Sep 18 2019)
 
 #### 🐛  Bug Fix
