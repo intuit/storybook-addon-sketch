@@ -1,3 +1,15 @@
+# v0.2.0 (Mon Jun 08 2020)
+
+#### 🚀  Enhancement
+
+- simplify preset [#8](https://github.com/intuit/storybook-addon-sketch/pull/8) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.1.1 (Mon Jun 08 2020)
 
 #### 🐛  Bug Fix
