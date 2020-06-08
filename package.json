@@ -11,6 +11,7 @@
   "files": [
     "dist",
     "entry.js",
+    "preset.js",
     "register.js",
     "register-options.js"
   ],
