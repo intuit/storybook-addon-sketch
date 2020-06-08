@@ -1,3 +1,20 @@
+# v0.1.1 (Mon Jun 08 2020)
+
+#### 🐛  Bug Fix
+
+- Remove story2sketch dependency [#3](https://github.com/intuit/storybook-addon-sketch/pull/3) ([@mcrosby114](https://github.com/mcrosby114))
+
+#### ⚠️  Pushed to master
+
+- Update package.json  ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 2
+
+- Matthew Crosby ([@mcrosby114](https://github.com/mcrosby114))
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.1.0 (Mon Sep 23 2019)
 
 #### 🚀  Enhancement
