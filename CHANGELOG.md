@@ -1,3 +1,15 @@
+# v0.2.1 (Fri Jan 15 2021)
+
+#### 🐛  Bug Fix
+
+- Fix typo in description [#13](https://github.com/intuit/storybook-addon-sketch/pull/13) ([@kaelig](https://github.com/kaelig))
+
+#### Authors: 1
+
+- Kaelig Deloumeau-Prigent ([@kaelig](https://github.com/kaelig))
+
+---
+
 # v0.2.0 (Mon Jun 08 2020)
 
 #### 🚀  Enhancement
