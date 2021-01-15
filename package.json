@@ -1,7 +1,7 @@
 {
   "name": "storybook-addon-sketch",
   "version": "0.2.0",
-  "description": "Get the sketch files for you stories in storybook",
+  "description": "Get the sketch files for your stories in Storybook",
   "main": "dist/index.js",
   "source": "src/index.js",
   "repository": {
